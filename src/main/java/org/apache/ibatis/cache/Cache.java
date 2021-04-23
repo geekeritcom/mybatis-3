@@ -41,6 +41,8 @@ import java.util.concurrent.locks.ReadWriteLock;
 
 public interface Cache {
 
+  int DEFAULT_CACHE_SIZE = 1024;
+
   /**
    * @return The identifier of this cache
    */
